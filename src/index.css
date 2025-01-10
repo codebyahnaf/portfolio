@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgb(0, 7, 17);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,7 +18,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 75px;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 [data-tooltip] {
   display: block;
