@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.name {
+  text-align: center;
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  margin-top: 300px;
+}
+[data-tooltip] {
+  display: block;
+  margin: auto;
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: darkcyan;
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 15px;
+
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+[data-tooltip2] {
+  display: block;
+  margin: auto;
+  top: 50px;
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: darkviolet;
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+[data-tooltip2]:hover::after {
+  content: attr(data-tooltip2);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 15px;
+
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
